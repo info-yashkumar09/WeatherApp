@@ -20,4 +20,4 @@ This app allows users to search for any valid city name and view real-time weath
 
 ## 📷 Demo
 
-Live on Vercel: []
+Live on Vercel: [https://weather-app-three-sand-55.vercel.app/]
