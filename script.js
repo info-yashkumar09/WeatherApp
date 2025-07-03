@@ -1,5 +1,5 @@
 const apiKey = "your_api_key_here";
-const apiUrl = "your_api_yrl_here;
+const apiUrl = "your_api_url_here";
 
 
 const searchBox = document.querySelector(".search input");
