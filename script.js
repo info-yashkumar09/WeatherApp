@@ -1,4 +1,4 @@
-const apiKey = "your_api_key_here";
+const apiKey = "";
 const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 
 
@@ -12,6 +12,11 @@ async function checkWeather(city) {
 
     if (response.status == 404) {
         document.querySelector(".error").style.display = "block";
+        document.querySelector(".weather").style.display = "none";
+    }
+    else if(!apiKey || apiKey.trim()===""){
+        document.querySelector(".noAPI").style.display = "block";
+        document.querySelector(".error").style.display = "none";
         document.querySelector(".weather").style.display = "none";
     }
     else {

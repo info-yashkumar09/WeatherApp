@@ -106,3 +106,11 @@ body {
     margin-top: 10px;
     display: none;
 }
+.noAPI {
+    text-align: left;
+    color: red;
+    margin-left: 10px;
+    font-size: 15px;
+    margin-top: 10px;
+    display: none;
+}
